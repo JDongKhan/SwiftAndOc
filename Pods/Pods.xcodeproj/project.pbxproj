@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0271B6161411BEBA0C2D0C108D09D010 /* Pods-SwiftAndOc-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D0B2CA5E620C0F8EEBD8DDDB14ED0B1E /* Pods-SwiftAndOc-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		082F4F47E184888235FD9FD9EDA2A414 /* Assistant.swift in Sources */ = {isa = PBXBuildFile; fileRef = D102B9F3C4EBC82B0BF9C5804F00C6F2 /* Assistant.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		6811435F950E915443489080C27E15E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		8BA9853AA64A31787F13AC74F1BBFAF9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		92AE525E02C4EEC9113F742D97C29E32 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DF6851468634B1C754480995483C1E /* TestViewController.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		B202C78AD60E7452C2F4A20E03488CE6 /* SPTFloatingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94B12012EA221C6C6ED49E9464DA247F /* SPTFloatingViewController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		CD96C4E8B53767DD4685A451931CFEF5 /* SportsKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B3253B2EDC5DA6FBDB8FB5C3190658C8 /* SportsKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9ADC7443C6CF4563D90D6B8792F895A /* SPTFloatingViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 99A047433EEEBFF6A686B187F9A1B6C2 /* SPTFloatingViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E52A9A4765D13ED0ABF460C327F2ACF2 /* Pods-SwiftAndOc-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E850B70A6463534A2E38DB622956A8F4 /* Pods-SwiftAndOc-dummy.m */; };
+		EA234B9462D97C7E28424D1E26CC2A6C /* SportsKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF7FA52B0E0299C1CEE9E9D3CACA6A2 /* SportsKit-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8848A87971E4B20741FACA0544F3757E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F7A320EE673F2E4B54F8ECF3A4158C5;
+			remoteInfo = SportsKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0CEA02DEC6436C3051C80C98E1CF79C8 /* Pods-SwiftAndOc-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftAndOc-acknowledgements.markdown"; sourceTree = "<group>"; };
+		17541A9249DBCC5AD5EDCB80D1B54D45 /* Pods-SwiftAndOc-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftAndOc-frameworks.sh"; sourceTree = "<group>"; };
+		1DB264576B6FFE325A34A9C7E9E7B6E5 /* SportsKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SportsKit-prefix.pch"; sourceTree = "<group>"; };
+		4DD6A3F7264D6EE9155E9A334C707F39 /* Pods-SwiftAndOc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftAndOc.release.xcconfig"; sourceTree = "<group>"; };
+		51DF6851468634B1C754480995483C1E /* TestViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TestViewController.swift; path = SportsKit/TestViewController.swift; sourceTree = "<group>"; };
+		62956A67BFBB3FD2A424A6B7392D7DE8 /* Pods-SwiftAndOc.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftAndOc.modulemap"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		73E8A4E310F7663AC3D9F7DE725D9136 /* libSportsKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSportsKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7892DF5E43646ACBE9F0A5DAC465D8CB /* Pods-SwiftAndOc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftAndOc.debug.xcconfig"; sourceTree = "<group>"; };
+		7DF7FA52B0E0299C1CEE9E9D3CACA6A2 /* SportsKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SportsKit-dummy.m"; sourceTree = "<group>"; };
+		8DB6CD6EF31580DCFAAD22A543E57BBC /* Pods_SwiftAndOc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftAndOc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F3A0BE04A942FB07646B2522341C6AA /* SportsKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SportsKit.modulemap; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94B12012EA221C6C6ED49E9464DA247F /* SPTFloatingViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTFloatingViewController.m; path = SportsKit/SPTFloatingViewController.m; sourceTree = "<group>"; };
+		99A047433EEEBFF6A686B187F9A1B6C2 /* SPTFloatingViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTFloatingViewController.h; path = SportsKit/SPTFloatingViewController.h; sourceTree = "<group>"; };
+		9AF4133B7B98576943DBDBE37BAD1336 /* Pods-SwiftAndOc-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftAndOc-resources.sh"; sourceTree = "<group>"; };
+		9FF031E58553093EF6510D74B86753F4 /* SportsKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = SportsKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B3253B2EDC5DA6FBDB8FB5C3190658C8 /* SportsKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SportsKit-umbrella.h"; sourceTree = "<group>"; };
+		D0B2CA5E620C0F8EEBD8DDDB14ED0B1E /* Pods-SwiftAndOc-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftAndOc-umbrella.h"; sourceTree = "<group>"; };
+		D102B9F3C4EBC82B0BF9C5804F00C6F2 /* Assistant.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Assistant.swift; path = SportsKit/Assistant.swift; sourceTree = "<group>"; };
+		DA080F2F6D246988287FEA38B0EB1D19 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E850B70A6463534A2E38DB622956A8F4 /* Pods-SwiftAndOc-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftAndOc-dummy.m"; sourceTree = "<group>"; };
+		F3C280D66F0DC480806E3DFFD0C1F9D4 /* Pods-SwiftAndOc-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftAndOc-acknowledgements.plist"; sourceTree = "<group>"; };
+		FE3924D0100F78D2B2CA1575591430DC /* SportsKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SportsKit.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34AE3F7EB2933B61416C0A369C94BE4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6811435F950E915443489080C27E15E4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1459DEA95B7D8DD0ABD1D3FE8487528 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BA9853AA64A31787F13AC74F1BBFAF9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05ABF70BB0207E798B12811EE53B4478 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DB6CD6EF31580DCFAAD22A543E57BBC /* Pods_SwiftAndOc.framework */,
+				73E8A4E310F7663AC3D9F7DE725D9136 /* libSportsKit.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A4F255FC10C523E0FF7022D0BDE0CC1 /* Pods-SwiftAndOc */ = {
+			isa = PBXGroup;
+			children = (
+				DA080F2F6D246988287FEA38B0EB1D19 /* Info.plist */,
+				62956A67BFBB3FD2A424A6B7392D7DE8 /* Pods-SwiftAndOc.modulemap */,
+				0CEA02DEC6436C3051C80C98E1CF79C8 /* Pods-SwiftAndOc-acknowledgements.markdown */,
+				F3C280D66F0DC480806E3DFFD0C1F9D4 /* Pods-SwiftAndOc-acknowledgements.plist */,
+				E850B70A6463534A2E38DB622956A8F4 /* Pods-SwiftAndOc-dummy.m */,
+				17541A9249DBCC5AD5EDCB80D1B54D45 /* Pods-SwiftAndOc-frameworks.sh */,
+				9AF4133B7B98576943DBDBE37BAD1336 /* Pods-SwiftAndOc-resources.sh */,
+				D0B2CA5E620C0F8EEBD8DDDB14ED0B1E /* Pods-SwiftAndOc-umbrella.h */,
+				7892DF5E43646ACBE9F0A5DAC465D8CB /* Pods-SwiftAndOc.debug.xcconfig */,
+				4DD6A3F7264D6EE9155E9A334C707F39 /* Pods-SwiftAndOc.release.xcconfig */,
+			);
+			name = "Pods-SwiftAndOc";
+			path = "Target Support Files/Pods-SwiftAndOc";
+			sourceTree = "<group>";
+		};
+		392EFD6F8C1513B48E8D19F0CA5561EB /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3C114E70C2D854EB1199461D54E31B7C /* SportsKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		3C114E70C2D854EB1199461D54E31B7C /* SportsKit */ = {
+			isa = PBXGroup;
+			children = (
+				D102B9F3C4EBC82B0BF9C5804F00C6F2 /* Assistant.swift */,
+				99A047433EEEBFF6A686B187F9A1B6C2 /* SPTFloatingViewController.h */,
+				94B12012EA221C6C6ED49E9464DA247F /* SPTFloatingViewController.m */,
+				51DF6851468634B1C754480995483C1E /* TestViewController.swift */,
+				6FBE771B07A47BC39489B154D1CE4B3D /* Pod */,
+				5AB1376DC87843FB8FC3E99E07997F32 /* Support Files */,
+			);
+			name = SportsKit;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		5AB1376DC87843FB8FC3E99E07997F32 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F3A0BE04A942FB07646B2522341C6AA /* SportsKit.modulemap */,
+				FE3924D0100F78D2B2CA1575591430DC /* SportsKit.xcconfig */,
+				7DF7FA52B0E0299C1CEE9E9D3CACA6A2 /* SportsKit-dummy.m */,
+				1DB264576B6FFE325A34A9C7E9E7B6E5 /* SportsKit-prefix.pch */,
+				B3253B2EDC5DA6FBDB8FB5C3190658C8 /* SportsKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Pods/Target Support Files/SportsKit";
+			sourceTree = "<group>";
+		};
+		6FBE771B07A47BC39489B154D1CE4B3D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				9FF031E58553093EF6510D74B86753F4 /* SportsKit.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				392EFD6F8C1513B48E8D19F0CA5561EB /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				05ABF70BB0207E798B12811EE53B4478 /* Products */,
+				95FDDEF7DF891DB68E16C4C8BC1A1D05 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		95FDDEF7DF891DB68E16C4C8BC1A1D05 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A4F255FC10C523E0FF7022D0BDE0CC1 /* Pods-SwiftAndOc */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8A82B82DAA8BD7E4B53DE7C1DCAFDB3D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0271B6161411BEBA0C2D0C108D09D010 /* Pods-SwiftAndOc-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDCE2630A26214A70BA6B98A0C188621 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD96C4E8B53767DD4685A451931CFEF5 /* SportsKit-umbrella.h in Headers */,
+				D9ADC7443C6CF4563D90D6B8792F895A /* SPTFloatingViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1F7A320EE673F2E4B54F8ECF3A4158C5 /* SportsKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DF547315B3E074D325B7FFB38CEB833 /* Build configuration list for PBXNativeTarget "SportsKit" */;
+			buildPhases = (
+				5C515E8C70A602BEE7FB9313E43468DE /* Sources */,
+				B1459DEA95B7D8DD0ABD1D3FE8487528 /* Frameworks */,
+				EDCE2630A26214A70BA6B98A0C188621 /* Headers */,
+				006A1D6488C090E6216ABF1F558F004F /* Setup Static Framework */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SportsKit;
+			productName = SportsKit;
+			productReference = 73E8A4E310F7663AC3D9F7DE725D9136 /* libSportsKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		447877570CB15676CDA4740B31D2A661 /* Pods-SwiftAndOc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 067D6AB077E0F531530BA33CBCDF051F /* Build configuration list for PBXNativeTarget "Pods-SwiftAndOc" */;
+			buildPhases = (
+				1B9155AD254053C890128A5A2F9E0B95 /* Sources */,
+				34AE3F7EB2933B61416C0A369C94BE4D /* Frameworks */,
+				8A82B82DAA8BD7E4B53DE7C1DCAFDB3D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0463ADF4B57FE7856874C1AC9CE85910 /* PBXTargetDependency */,
+			);
+			name = "Pods-SwiftAndOc";
+			productName = "Pods-SwiftAndOc";
+			productReference = 8DB6CD6EF31580DCFAAD22A543E57BBC /* Pods_SwiftAndOc.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 05ABF70BB0207E798B12811EE53B4478 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				447877570CB15676CDA4740B31D2A661 /* Pods-SwiftAndOc */,
+				1F7A320EE673F2E4B54F8ECF3A4158C5 /* SportsKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		006A1D6488C090E6216ABF1F558F004F /* Setup Static Framework */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Setup Static Framework";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "mkdir -p \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Modules\"\n# The fat library archive is at a file symbolic link when archiving, so use -L option\nrsync -tL \"${BUILT_PRODUCTS_DIR}/lib${PRODUCT_NAME}.a\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/${PRODUCT_NAME}\"\nrsync -t \"${MODULEMAP_FILE}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Modules/module.modulemap\"\n# If there's a .swiftmodule, copy it into the framework's Modules folder\nrsync -tr \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}\".swiftmodule \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Modules/\" 2>/dev/null || :\n# If archiving, Headers copy is needed\nrsync -tr \"${TARGET_BUILD_DIR}/${PRODUCT_NAME}.framework/Headers\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/\" 2>/dev/null || :\nrsync -tr \"${TARGET_BUILD_DIR}/${PRODUCT_NAME}.framework/PrivateHeaders\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/\" 2>/dev/null || :\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B9155AD254053C890128A5A2F9E0B95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E52A9A4765D13ED0ABF460C327F2ACF2 /* Pods-SwiftAndOc-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C515E8C70A602BEE7FB9313E43468DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				082F4F47E184888235FD9FD9EDA2A414 /* Assistant.swift in Sources */,
+				EA234B9462D97C7E28424D1E26CC2A6C /* SportsKit-dummy.m in Sources */,
+				B202C78AD60E7452C2F4A20E03488CE6 /* SPTFloatingViewController.m in Sources */,
+				92AE525E02C4EEC9113F742D97C29E32 /* TestViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0463ADF4B57FE7856874C1AC9CE85910 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SportsKit;
+			target = 1F7A320EE673F2E4B54F8ECF3A4158C5 /* SportsKit */;
+			targetProxy = 8848A87971E4B20741FACA0544F3757E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		73D6723617BE1BEE5A23F1CAA1EC66C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7892DF5E43646ACBE9F0A5DAC465D8CB /* Pods-SwiftAndOc.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftAndOc/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftAndOc/Pods-SwiftAndOc.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SwiftAndOc;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		75A3B5819AA225C2E155C629A7144136 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE3924D0100F78D2B2CA1575591430DC /* SportsKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SportsKit/SportsKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = "Target Support Files/SportsKit/SportsKit.modulemap";
+				OTHER_LDFLAGS = "-ObjC";
+				PRIVATE_HEADERS_FOLDER_PATH = SportsKit.framework/PrivateHeaders;
+				PRODUCT_NAME = SportsKit;
+				PUBLIC_HEADERS_FOLDER_PATH = SportsKit.framework/Headers;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9FEE587453253CDB8D47182A045BAB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE3924D0100F78D2B2CA1575591430DC /* SportsKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SportsKit/SportsKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = "Target Support Files/SportsKit/SportsKit.modulemap";
+				OTHER_LDFLAGS = "-ObjC";
+				PRIVATE_HEADERS_FOLDER_PATH = SportsKit.framework/PrivateHeaders;
+				PRODUCT_NAME = SportsKit;
+				PUBLIC_HEADERS_FOLDER_PATH = SportsKit.framework/Headers;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA436AA5379A3D025F1698BBA365D29E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DD6A3F7264D6EE9155E9A334C707F39 /* Pods-SwiftAndOc.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftAndOc/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftAndOc/Pods-SwiftAndOc.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SwiftAndOc;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C3E37FB098AE76440E29106ADBF00CEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DA03565BE765DB55C6448FB363A44481 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		067D6AB077E0F531530BA33CBCDF051F /* Build configuration list for PBXNativeTarget "Pods-SwiftAndOc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73D6723617BE1BEE5A23F1CAA1EC66C6 /* Debug */,
+				AA436AA5379A3D025F1698BBA365D29E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3E37FB098AE76440E29106ADBF00CEB /* Debug */,
+				DA03565BE765DB55C6448FB363A44481 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DF547315B3E074D325B7FFB38CEB833 /* Build configuration list for PBXNativeTarget "SportsKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9FEE587453253CDB8D47182A045BAB7 /* Debug */,
+				75A3B5819AA225C2E155C629A7144136 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

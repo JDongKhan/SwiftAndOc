@@ -1,0 +1,16 @@
+PODS:
+  - SportsKit (0.0.4)
+
+DEPENDENCIES:
+  - SportsKit (from `SportsKit.podspec`)
+
+EXTERNAL SOURCES:
+  SportsKit:
+    :path: SportsKit.podspec
+
+SPEC CHECKSUMS:
+  SportsKit: 5811f8545732f28dbdd651af21272ebe7437f223
+
+PODFILE CHECKSUM: a69ad687132d07c793180b20a663e462245fd6c1
+
+COCOAPODS: 1.4.0

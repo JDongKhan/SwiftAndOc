@@ -1,0 +1,6 @@
+framework module SportsKit {
+  umbrella header "SportsKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

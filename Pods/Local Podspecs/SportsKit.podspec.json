@@ -1,0 +1,22 @@
+{
+  "name": "SportsKit",
+  "version": "0.0.4",
+  "summary": "suning",
+  "homepage": "http://www.baidu.com",
+  "license": "MIT",
+  "authors": {
+    "wangjindong": "419591321@qq.com"
+  },
+  "social_media_url": "",
+  "source": {
+    "git": "http://git.cnsuning.com/tysq/suningsportskitios.git",
+    "tag": "0.0.4"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SportsKit/**/*.{h,m,mm,c,swift}",
+  "static_framework": true,
+  "requires_arc": true,
+  "public_header_files": "SportsKit/**/*.h"
+}
