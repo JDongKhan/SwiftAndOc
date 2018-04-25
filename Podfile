@@ -3,8 +3,6 @@ platform:ios,'8.0'
 inhibit_all_warnings!
 use_frameworks!
 
-source 'http://git.cnsuning.com/tysq/suningsportsspecs.git'
-
 target "SwiftAndOc" do
 
 pre_install do |installer|

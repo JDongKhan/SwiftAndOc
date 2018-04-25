@@ -1,7 +1,7 @@
 {
   "name": "SportsKit",
   "version": "0.0.4",
-  "summary": "suning",
+  "summary": "jd",
   "homepage": "http://www.baidu.com",
   "license": "MIT",
   "authors": {
@@ -9,7 +9,7 @@
   },
   "social_media_url": "",
   "source": {
-    "git": "http://git.cnsuning.com/tysq/suningsportskitios.git",
+    "git": "https://github.com/wangjindong/SwiftAndOc.git",
     "tag": "0.0.4"
   },
   "platforms": {
@@ -18,13 +18,16 @@
   "source_files": "SportsKit/**/*.{h,m,mm,c,swift}",
   "static_framework": true,
   "requires_arc": true,
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES"
+  },
   "public_header_files": "SportsKit/**/*.h",
   "dependencies": {
-    "SDWebImage": [
-      "3.8.2"
+    "YYImage": [
+
     ],
-    "SDWebImage/WebP": [
-      "3.8.2"
+    "YYImage/WebP": [
+
     ]
   }
 }
