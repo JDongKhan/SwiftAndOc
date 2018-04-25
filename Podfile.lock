@@ -1,16 +1,32 @@
 PODS:
-  - SportsKit (0.0.4)
+  - libwebp (0.6.2)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - SDWebImage/WebP (3.8.2):
+    - libwebp
+    - SDWebImage/Core
+  - SportsKit (0.0.4):
+    - SDWebImage (= 3.8.2)
+    - SDWebImage/WebP (= 3.8.2)
 
 DEPENDENCIES:
   - SportsKit (from `SportsKit.podspec`)
+
+SPEC REPOS:
+  http://git.cnsuning.com/tysq/suningsportsspecs.git:
+    - libwebp
+    - SDWebImage
 
 EXTERNAL SOURCES:
   SportsKit:
     :path: SportsKit.podspec
 
 SPEC CHECKSUMS:
-  SportsKit: 5811f8545732f28dbdd651af21272ebe7437f223
+  libwebp: 86c9af6bf34d3f150037d715e648792777a3cdbe
+  SDWebImage: 05da8fac826c64314cacca9d947e55845c06c801
+  SportsKit: 261c0379706b1b08193bf0824d97a26d23abc2ff
 
-PODFILE CHECKSUM: a69ad687132d07c793180b20a663e462245fd6c1
+PODFILE CHECKSUM: 13c46fd392c6de4a4183d2464069abc9c376ac33
 
-COCOAPODS: 1.4.0
+COCOAPODS: 1.5.0

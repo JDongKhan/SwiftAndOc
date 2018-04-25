@@ -18,5 +18,13 @@
   "source_files": "SportsKit/**/*.{h,m,mm,c,swift}",
   "static_framework": true,
   "requires_arc": true,
-  "public_header_files": "SportsKit/**/*.h"
+  "public_header_files": "SportsKit/**/*.h",
+  "dependencies": {
+    "SDWebImage": [
+      "3.8.2"
+    ],
+    "SDWebImage/WebP": [
+      "3.8.2"
+    ]
+  }
 }
