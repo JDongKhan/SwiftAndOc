@@ -12,7 +12,7 @@ Pod::Spec.new do |spec|
 
   spec.source_files = 'SportsKit/**/*.{h,m,mm,c,swift}'
   #spec.resource = 'SportsKit/**/*.{png,xib,plist}'
-  spec.static_framework = true
+  #spec.static_framework = true
   spec.requires_arc = true
   spec.ios.deployment_target = '8.0'
 	  

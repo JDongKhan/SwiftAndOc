@@ -3,7 +3,7 @@
 //  Football
 //
 //  Created by Louis Zhu on 2017/1/15.
-//  Copyright © 2017年 Suning. All rights reserved.
+//  Copyright © 2017年 jd. All rights reserved.
 //
 
 import Foundation

@@ -6,15 +6,15 @@
 //  Copyright © 2017年 JD. All rights reserved.
 //
 
-#import "TestViewController.h"
+#import "Test1ViewController.h"
 @import SportsKit;
-#import "SportsKit-Swift.h"
+//#import "SportsKit-Swift.h"
 
-@interface TestViewController ()
+@interface Test1ViewController ()
 
 @end
 
-@implementation TestViewController
+@implementation Test1ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

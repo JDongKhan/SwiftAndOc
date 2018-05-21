@@ -16,7 +16,6 @@
     "ios": "8.0"
   },
   "source_files": "SportsKit/**/*.{h,m,mm,c,swift}",
-  "static_framework": true,
   "requires_arc": true,
   "pod_target_xcconfig": {
     "DEFINES_MODULE": "YES"

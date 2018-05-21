@@ -7,36 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		02A1ADF5A9F1253EC9D9EFFEF8D41235 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67D6E55E61A18B9FCEE8B47E22D4270C /* CoreFoundation.framework */; };
-		035DF13EB128F0BD5437CC6C60456BF1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1F5E026DFDC125DA63FB26DF3D0B33B /* Foundation.framework */; };
+		02A1ADF5A9F1253EC9D9EFFEF8D41235 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7A76E866F60F0D699CAB9D509706FBD /* CoreFoundation.framework */; };
+		035DF13EB128F0BD5437CC6C60456BF1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 668B8C7920EBBF89EB07288ABF376752 /* Foundation.framework */; };
 		130FB206F68EB45322FFB4C167A19234 /* YYImageCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F06B64C1D6BD273E134818E15A10C69 /* YYImageCoder.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		1C3973990301F1C7FC710D1293F00852 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A90BE5491E0D2F0314AC354A80EA7053 /* AssetsLibrary.framework */; };
+		1C3973990301F1C7FC710D1293F00852 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6621FE26CFFFEBE3BF77C3ACD7C1DB71 /* AssetsLibrary.framework */; };
 		22A219B650ACFB7D2990973AA136638F /* YYImageCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 091A6C88354D4A343592D082D21D30DC /* YYImageCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2E6EE9E06885BC7E1708882A450B4205 /* Assistant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91530D667A3CDE6BF4E636DD286FB9F6 /* Assistant.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		3BD00D1667A81919D045EF0F5872C8B9 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B67187445A5A589CA3E5BEAD847509A /* TestViewController.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		3CF99DC7F20D9DE9CAE4C260E2F2B1DE /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4418563B9EF3CB95C8F65879F546D44C /* ImageIO.framework */; };
+		2E6EE9E06885BC7E1708882A450B4205 /* Assistant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAC80A1AC36AB465A21900151400736 /* Assistant.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		3BD00D1667A81919D045EF0F5872C8B9 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC402206D6BA6410E5FAEE6A6E16E320 /* TestViewController.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		3CF99DC7F20D9DE9CAE4C260E2F2B1DE /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7318A739967B192A84880B676DC9D76 /* ImageIO.framework */; };
 		4430025714053107F5BC7943DE1E0316 /* YYSpriteSheetImage.m in Sources */ = {isa = PBXBuildFile; fileRef = D71A513A6DA0DC514A9D6BD862B3B74F /* YYSpriteSheetImage.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		49CC4C725AD35D91B78CE42CEE8446C8 /* YYImage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 16A7D80A74030601CAE8BBDBF608DD33 /* YYImage-dummy.m */; };
-		517F3634DE5AA23142A81B01EB08C19A /* SportsKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2F418B0D74588FEEDE90E3535335CC /* SportsKit-dummy.m */; };
+		517F3634DE5AA23142A81B01EB08C19A /* SportsKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FEBF192AA49F773C9E38417C03E3B7 /* SportsKit-dummy.m */; };
+		5F24EE82B1139C49E2A51526A2D016CB /* YYImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 994F4F153BAEEAE582E878F7CE206710 /* YYImage.framework */; };
 		5FAEC1D69E204DEFFE7958956BF0ED38 /* YYImage.h in Headers */ = {isa = PBXBuildFile; fileRef = F103B8602E0DCC65B47DE2318657E07D /* YYImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6B192C581414368750AB636BA214DFD9 /* SPTFloatingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B09857C0A7576E9CF7165FAB942B2B /* SPTFloatingViewController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		70561F14C5007AF13F587A4E9CA0F4C9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A72DD915EC9DA0CB8E471AB1F10DEBE /* UIKit.framework */; };
-		77A951334D74FBA083D719B4B2A6C899 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1F5E026DFDC125DA63FB26DF3D0B33B /* Foundation.framework */; };
-		7B1CE4CDA1D168F3D0BD4334D26BA962 /* SportsKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 947A72E4437C6742880F325B3B8866C9 /* SportsKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B192C581414368750AB636BA214DFD9 /* SPTFloatingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA40AD62FCA11B41E44F7E0B849E51BF /* SPTFloatingViewController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		70561F14C5007AF13F587A4E9CA0F4C9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27EED85BDA93DCAF5C4E81EDD360E242 /* UIKit.framework */; };
+		7B1CE4CDA1D168F3D0BD4334D26BA962 /* SportsKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E30C1A07AC848A0BB4291373CE7B08A1 /* SportsKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7C6C59C77310DE2ADDB4F5DB1F1A5599 /* Pods-SwiftAndOc-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E850B70A6463534A2E38DB622956A8F4 /* Pods-SwiftAndOc-dummy.m */; };
 		8773ECAD95364CBF76B48E3EF1609D47 /* YYAnimatedImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DDD3D9DCD3CDCA65C768EB1439B827A /* YYAnimatedImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		905DAA16323EEBDB2D91EECB5288A76D /* YYImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EB9A0239074B741002B1AD8B27BE40B /* YYImage.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		907C147EE11F66491558F9316A550B99 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A624E91122CB033D86EBD46036B82B28 /* Accelerate.framework */; };
+		907C147EE11F66491558F9316A550B99 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD435FBDBF4A4DB7A28562128398452E /* Accelerate.framework */; };
 		9E30B385B0008857DF3329E816FA8614 /* YYFrameImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AF8043D90CEB35CD8D02BE8C146615D /* YYFrameImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B6790290929668F3CA3FD97F6C0CFB1E /* SPTFloatingViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 38773AFEE29A6E98EA081212A9FFE676 /* SPTFloatingViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6790290929668F3CA3FD97F6C0CFB1E /* SPTFloatingViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 270EB85B441DBB111B83D25A31EC742A /* SPTFloatingViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B97A47CB74A6AF6B848197DC8E7555A7 /* YYAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A033225E7E91D15D390A2BE340E25C1 /* YYAnimatedImageView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		DA828C4864195D7572E1BC9B20A80FF0 /* Pods-SwiftAndOc-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D0B2CA5E620C0F8EEBD8DDDB14ED0B1E /* Pods-SwiftAndOc-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DCCD14D74551E1CF6536E1BEE152A49E /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F584F554FC4F3918A874F458E376711 /* MobileCoreServices.framework */; };
-		EDACD035A8CB972B0CC64C10AF5CF19A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1F5E026DFDC125DA63FB26DF3D0B33B /* Foundation.framework */; };
+		DCCD14D74551E1CF6536E1BEE152A49E /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F47079696B21AF4AE09838BF187D43D /* MobileCoreServices.framework */; };
+		EDACD035A8CB972B0CC64C10AF5CF19A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 668B8C7920EBBF89EB07288ABF376752 /* Foundation.framework */; };
 		F1E087DBF2660BECE38900CE628E494B /* YYImage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 95DF6E711A49C446039A37FE54D7328C /* YYImage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F789BE496DB2CFB3A42044810FFC3F5D /* YYSpriteSheetImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D868EC4D9FE31C19008B99F2784D17B /* YYSpriteSheetImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F8E45AB87CA1181329001DCFA890EFBA /* YYFrameImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 68CC6355DF01E175ABD412BC7192DCC0 /* YYFrameImage.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		FE7FB7E32FC74998C3985A8243804C43 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0A3B26ECE81C89075EAD21D4DF8B1D0 /* QuartzCore.framework */; };
+		FD2CB3214C38015FB1F6DE63274A0901 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 668B8C7920EBBF89EB07288ABF376752 /* Foundation.framework */; };
+		FE7FB7E32FC74998C3985A8243804C43 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1923512EF2A3E21E0C7121EDAD58DFB /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,53 +67,55 @@
 /* Begin PBXFileReference section */
 		02975560E7B68975AAF43D207A79FF39 /* YYImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YYImage.framework; path = YYImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		091A6C88354D4A343592D082D21D30DC /* YYImageCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYImageCoder.h; path = YYImage/YYImageCoder.h; sourceTree = "<group>"; };
-		0B10461BB72DCC85817D0D08CF103EED /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		0CEA02DEC6436C3051C80C98E1CF79C8 /* Pods-SwiftAndOc-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftAndOc-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0DAC80A1AC36AB465A21900151400736 /* Assistant.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Assistant.swift; path = SportsKit/Assistant.swift; sourceTree = "<group>"; };
 		16A7D80A74030601CAE8BBDBF608DD33 /* YYImage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YYImage-dummy.m"; sourceTree = "<group>"; };
 		17541A9249DBCC5AD5EDCB80D1B54D45 /* Pods-SwiftAndOc-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftAndOc-frameworks.sh"; sourceTree = "<group>"; };
 		20A52DDB2A86B235B89EDE7906D809C3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		256E9CE8728093F43C0547E6D70BEC7D /* SportsKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SportsKit.xcconfig; sourceTree = "<group>"; };
+		270EB85B441DBB111B83D25A31EC742A /* SPTFloatingViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTFloatingViewController.h; path = SportsKit/SPTFloatingViewController.h; sourceTree = "<group>"; };
+		27EED85BDA93DCAF5C4E81EDD360E242 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		295FFFACD25C0E78041441D576A6A9F2 /* SportsKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SportsKit.modulemap; sourceTree = "<group>"; };
 		2EB9A0239074B741002B1AD8B27BE40B /* YYImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYImage.m; path = YYImage/YYImage.m; sourceTree = "<group>"; };
-		353E61F4A1F90132DC3E6C26FCEA8426 /* SportsKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SportsKit-prefix.pch"; sourceTree = "<group>"; };
-		38773AFEE29A6E98EA081212A9FFE676 /* SPTFloatingViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTFloatingViewController.h; path = SportsKit/SPTFloatingViewController.h; sourceTree = "<group>"; };
-		3B67187445A5A589CA3E5BEAD847509A /* TestViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TestViewController.swift; path = SportsKit/TestViewController.swift; sourceTree = "<group>"; };
-		3F584F554FC4F3918A874F458E376711 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
-		4418563B9EF3CB95C8F65879F546D44C /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
+		2F47079696B21AF4AE09838BF187D43D /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
 		4A033225E7E91D15D390A2BE340E25C1 /* YYAnimatedImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYAnimatedImageView.m; path = YYImage/YYAnimatedImageView.m; sourceTree = "<group>"; };
-		4A785AAFA865FDE13CDB3D4406D99835 /* SportsKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SportsKit.modulemap; sourceTree = "<group>"; };
 		4D868EC4D9FE31C19008B99F2784D17B /* YYSpriteSheetImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYSpriteSheetImage.h; path = YYImage/YYSpriteSheetImage.h; sourceTree = "<group>"; };
 		4DD6A3F7264D6EE9155E9A334C707F39 /* Pods-SwiftAndOc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftAndOc.release.xcconfig"; sourceTree = "<group>"; };
 		62956A67BFBB3FD2A424A6B7392D7DE8 /* Pods-SwiftAndOc.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftAndOc.modulemap"; sourceTree = "<group>"; };
-		66AE16812E33DD86534C54A55406EA4B /* SportsKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = SportsKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		67D6E55E61A18B9FCEE8B47E22D4270C /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		65E4EA16861DE4CDC8602AA28F777DC0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		6621FE26CFFFEBE3BF77C3ACD7C1DB71 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/AssetsLibrary.framework; sourceTree = DEVELOPER_DIR; };
+		668B8C7920EBBF89EB07288ABF376752 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		68CC6355DF01E175ABD412BC7192DCC0 /* YYFrameImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYFrameImage.m; path = YYImage/YYFrameImage.m; sourceTree = "<group>"; };
-		6F2F418B0D74588FEEDE90E3535335CC /* SportsKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SportsKit-dummy.m"; sourceTree = "<group>"; };
+		6E11FBB8EB4A102B1FD8A799EA8F12EE /* SportsKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SportsKit.xcconfig; sourceTree = "<group>"; };
 		7892DF5E43646ACBE9F0A5DAC465D8CB /* Pods-SwiftAndOc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftAndOc.debug.xcconfig"; sourceTree = "<group>"; };
-		7A72DD915EC9DA0CB8E471AB1F10DEBE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		91530D667A3CDE6BF4E636DD286FB9F6 /* Assistant.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Assistant.swift; path = SportsKit/Assistant.swift; sourceTree = "<group>"; };
+		8A58BE5162DFBB5E9C370DA290259AFD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		947A72E4437C6742880F325B3B8866C9 /* SportsKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SportsKit-umbrella.h"; sourceTree = "<group>"; };
 		95DF6E711A49C446039A37FE54D7328C /* YYImage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYImage-umbrella.h"; sourceTree = "<group>"; };
+		994F4F153BAEEAE582E878F7CE206710 /* YYImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YYImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AF4133B7B98576943DBDBE37BAD1336 /* Pods-SwiftAndOc-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftAndOc-resources.sh"; sourceTree = "<group>"; };
 		9AF8043D90CEB35CD8D02BE8C146615D /* YYFrameImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYFrameImage.h; path = YYImage/YYFrameImage.h; sourceTree = "<group>"; };
 		9DDD3D9DCD3CDCA65C768EB1439B827A /* YYAnimatedImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYAnimatedImageView.h; path = YYImage/YYAnimatedImageView.h; sourceTree = "<group>"; };
 		9E743B3D401A019A2A55D077068C1E1D /* YYImage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YYImage.modulemap; sourceTree = "<group>"; };
 		9F06B64C1D6BD273E134818E15A10C69 /* YYImageCoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYImageCoder.m; path = YYImage/YYImageCoder.m; sourceTree = "<group>"; };
 		A186CCA1474C8B04C2A85DDA9826214F /* WebP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebP.framework; path = Vendor/WebP.framework; sourceTree = "<group>"; };
-		A1F5E026DFDC125DA63FB26DF3D0B33B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		A5B09857C0A7576E9CF7165FAB942B2B /* SPTFloatingViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTFloatingViewController.m; path = SportsKit/SPTFloatingViewController.m; sourceTree = "<group>"; };
-		A624E91122CB033D86EBD46036B82B28 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
-		A90BE5491E0D2F0314AC354A80EA7053 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/AssetsLibrary.framework; sourceTree = DEVELOPER_DIR; };
+		A7A76E866F60F0D699CAB9D509706FBD /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		AD435FBDBF4A4DB7A28562128398452E /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
 		AF8C5E7100D2C6D0558D5343EC9CAAD6 /* SportsKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SportsKit.framework; path = SportsKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0E867EF7D118BC153D1A95A70D80C86 /* SportsKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SportsKit-prefix.pch"; sourceTree = "<group>"; };
+		BA40AD62FCA11B41E44F7E0B849E51BF /* SPTFloatingViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTFloatingViewController.m; path = SportsKit/SPTFloatingViewController.m; sourceTree = "<group>"; };
+		C944ED3CB993C0EE128F8E4B0686ED82 /* SportsKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = SportsKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CC402206D6BA6410E5FAEE6A6E16E320 /* TestViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TestViewController.swift; path = SportsKit/TestViewController.swift; sourceTree = "<group>"; };
 		D0894D0B2670C32B42EEEB9D4EE6A013 /* Pods_SwiftAndOc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftAndOc.framework; path = "Pods-SwiftAndOc.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D0A3B26ECE81C89075EAD21D4DF8B1D0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		D0B2CA5E620C0F8EEBD8DDDB14ED0B1E /* Pods-SwiftAndOc-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftAndOc-umbrella.h"; sourceTree = "<group>"; };
 		D71A513A6DA0DC514A9D6BD862B3B74F /* YYSpriteSheetImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYSpriteSheetImage.m; path = YYImage/YYSpriteSheetImage.m; sourceTree = "<group>"; };
 		DA080F2F6D246988287FEA38B0EB1D19 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E30C1A07AC848A0BB4291373CE7B08A1 /* SportsKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SportsKit-umbrella.h"; sourceTree = "<group>"; };
 		E850B70A6463534A2E38DB622956A8F4 /* Pods-SwiftAndOc-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftAndOc-dummy.m"; sourceTree = "<group>"; };
 		F103B8602E0DCC65B47DE2318657E07D /* YYImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYImage.h; path = YYImage/YYImage.h; sourceTree = "<group>"; };
+		F1923512EF2A3E21E0C7121EDAD58DFB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		F3C280D66F0DC480806E3DFFD0C1F9D4 /* Pods-SwiftAndOc-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftAndOc-acknowledgements.plist"; sourceTree = "<group>"; };
 		F3C6EEF0C1B874ABF8502DD371169F42 /* YYImage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YYImage.xcconfig; sourceTree = "<group>"; };
+		F6FEBF192AA49F773C9E38417C03E3B7 /* SportsKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SportsKit-dummy.m"; sourceTree = "<group>"; };
+		F7318A739967B192A84880B676DC9D76 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
 		FE4F3279C9AD122C4589020075BC9411 /* YYImage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYImage-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -132,11 +135,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		77A8FC161E7221E9A685F08D89DFBB0D /* Frameworks */ = {
+		852C72043FD6F25C4544A0143997863E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77A951334D74FBA083D719B4B2A6C899 /* Foundation.framework in Frameworks */,
+				FD2CB3214C38015FB1F6DE63274A0901 /* Foundation.framework in Frameworks */,
+				5F24EE82B1139C49E2A51526A2D016CB /* YYImage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,6 +155,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		02B142393CCCFF48AA59E9159E38D55D /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				AD435FBDBF4A4DB7A28562128398452E /* Accelerate.framework */,
+				6621FE26CFFFEBE3BF77C3ACD7C1DB71 /* AssetsLibrary.framework */,
+				A7A76E866F60F0D699CAB9D509706FBD /* CoreFoundation.framework */,
+				668B8C7920EBBF89EB07288ABF376752 /* Foundation.framework */,
+				F7318A739967B192A84880B676DC9D76 /* ImageIO.framework */,
+				2F47079696B21AF4AE09838BF187D43D /* MobileCoreServices.framework */,
+				F1923512EF2A3E21E0C7121EDAD58DFB /* QuartzCore.framework */,
+				27EED85BDA93DCAF5C4E81EDD360E242 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
 		0A4F255FC10C523E0FF7022D0BDE0CC1 /* Pods-SwiftAndOc */ = {
 			isa = PBXGroup;
 			children = (
@@ -180,29 +199,30 @@
 		392EFD6F8C1513B48E8D19F0CA5561EB /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5955AAB57863286BBE934F630838E7D3 /* SportsKit */,
+				DCF2EE5BEBBFC2F8F1769ED54D39F1DE /* SportsKit */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		5955AAB57863286BBE934F630838E7D3 /* SportsKit */ = {
+		47EE5A48E148E91940DA0A3EEA18903F /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				91530D667A3CDE6BF4E636DD286FB9F6 /* Assistant.swift */,
-				38773AFEE29A6E98EA081212A9FFE676 /* SPTFloatingViewController.h */,
-				A5B09857C0A7576E9CF7165FAB942B2B /* SPTFloatingViewController.m */,
-				3B67187445A5A589CA3E5BEAD847509A /* TestViewController.swift */,
-				888D07C0DD6BC7D758C5CB2DD3AC7D44 /* Pod */,
-				AC5AF40BB07811138DFA7B74EA6BE2BA /* Support Files */,
+				8A58BE5162DFBB5E9C370DA290259AFD /* Info.plist */,
+				295FFFACD25C0E78041441D576A6A9F2 /* SportsKit.modulemap */,
+				6E11FBB8EB4A102B1FD8A799EA8F12EE /* SportsKit.xcconfig */,
+				F6FEBF192AA49F773C9E38417C03E3B7 /* SportsKit-dummy.m */,
+				B0E867EF7D118BC153D1A95A70D80C86 /* SportsKit-prefix.pch */,
+				E30C1A07AC848A0BB4291373CE7B08A1 /* SportsKit-umbrella.h */,
 			);
-			name = SportsKit;
-			path = ..;
+			name = "Support Files";
+			path = "Pods/Target Support Files/SportsKit";
 			sourceTree = "<group>";
 		};
-		785553737B06AFC3DA711DDEB7D56194 /* Frameworks */ = {
+		71A143E2D4BFDFCA1394926B27F436C3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BD21D7A7E6A4C15B2A8428E5CE9F8296 /* iOS */,
+				994F4F153BAEEAE582E878F7CE206710 /* YYImage.framework */,
+				02B142393CCCFF48AA59E9159E38D55D /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -212,20 +232,11 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				392EFD6F8C1513B48E8D19F0CA5561EB /* Development Pods */,
-				785553737B06AFC3DA711DDEB7D56194 /* Frameworks */,
+				71A143E2D4BFDFCA1394926B27F436C3 /* Frameworks */,
 				B89E50AA254DF544C9D982A968104D70 /* Pods */,
 				8FC64CE9441796BF67018190B181E70C /* Products */,
 				95FDDEF7DF891DB68E16C4C8BC1A1D05 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		888D07C0DD6BC7D758C5CB2DD3AC7D44 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				0B10461BB72DCC85817D0D08CF103EED /* README.md */,
-				66AE16812E33DD86534C54A55406EA4B /* SportsKit.podspec */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		8FC64CE9441796BF67018190B181E70C /* Products */ = {
@@ -257,6 +268,15 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		9CBDB397943E0B1E3B80AC5F1F7594AD /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				65E4EA16861DE4CDC8602AA28F777DC0 /* README.md */,
+				C944ED3CB993C0EE128F8E4B0686ED82 /* SportsKit.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		A41BC58854FAD74C43E37330B9B07BCB /* Core */ = {
 			isa = PBXGroup;
 			children = (
@@ -282,19 +302,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		AC5AF40BB07811138DFA7B74EA6BE2BA /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				4A785AAFA865FDE13CDB3D4406D99835 /* SportsKit.modulemap */,
-				256E9CE8728093F43C0547E6D70BEC7D /* SportsKit.xcconfig */,
-				6F2F418B0D74588FEEDE90E3535335CC /* SportsKit-dummy.m */,
-				353E61F4A1F90132DC3E6C26FCEA8426 /* SportsKit-prefix.pch */,
-				947A72E4437C6742880F325B3B8866C9 /* SportsKit-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Pods/Target Support Files/SportsKit";
-			sourceTree = "<group>";
-		};
 		B89E50AA254DF544C9D982A968104D70 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -303,19 +310,18 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		BD21D7A7E6A4C15B2A8428E5CE9F8296 /* iOS */ = {
+		DCF2EE5BEBBFC2F8F1769ED54D39F1DE /* SportsKit */ = {
 			isa = PBXGroup;
 			children = (
-				A624E91122CB033D86EBD46036B82B28 /* Accelerate.framework */,
-				A90BE5491E0D2F0314AC354A80EA7053 /* AssetsLibrary.framework */,
-				67D6E55E61A18B9FCEE8B47E22D4270C /* CoreFoundation.framework */,
-				A1F5E026DFDC125DA63FB26DF3D0B33B /* Foundation.framework */,
-				4418563B9EF3CB95C8F65879F546D44C /* ImageIO.framework */,
-				3F584F554FC4F3918A874F458E376711 /* MobileCoreServices.framework */,
-				D0A3B26ECE81C89075EAD21D4DF8B1D0 /* QuartzCore.framework */,
-				7A72DD915EC9DA0CB8E471AB1F10DEBE /* UIKit.framework */,
+				0DAC80A1AC36AB465A21900151400736 /* Assistant.swift */,
+				270EB85B441DBB111B83D25A31EC742A /* SPTFloatingViewController.h */,
+				BA40AD62FCA11B41E44F7E0B849E51BF /* SPTFloatingViewController.m */,
+				CC402206D6BA6410E5FAEE6A6E16E320 /* TestViewController.swift */,
+				9CBDB397943E0B1E3B80AC5F1F7594AD /* Pod */,
+				47EE5A48E148E91940DA0A3EEA18903F /* Support Files */,
 			);
-			name = iOS;
+			name = SportsKit;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		F7DE0A127C6FC9D2D9B196472CE5D470 /* Support Files */ = {
@@ -373,7 +379,7 @@
 			buildConfigurationList = 1892BFAAAD089C2B43745ECBCA1E6949 /* Build configuration list for PBXNativeTarget "SportsKit" */;
 			buildPhases = (
 				BBF2DCFBCC84D118E966B8FE4B9326F9 /* Sources */,
-				77A8FC161E7221E9A685F08D89DFBB0D /* Frameworks */,
+				852C72043FD6F25C4544A0143997863E /* Frameworks */,
 				D2765A95EE24F810120DAC06F7A239FE /* Headers */,
 			);
 			buildRules = (
@@ -507,39 +513,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0C510E271648CACEF0A009512C651579 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 256E9CE8728093F43C0547E6D70BEC7D /* SportsKit.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SportsKit/SportsKit-prefix.pch";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/SportsKit/SportsKit.modulemap";
-				PRODUCT_MODULE_NAME = SportsKit;
-				PRODUCT_NAME = SportsKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		0F1920DCB04B174EBAC0EF96B9CA5435 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4DD6A3F7264D6EE9155E9A334C707F39 /* Pods-SwiftAndOc.release.xcconfig */;
@@ -574,6 +547,38 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		1E27AB1034FAA7AD213D6FC2069DBB92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E11FBB8EB4A102B1FD8A799EA8F12EE /* SportsKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SportsKit/SportsKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SportsKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SportsKit/SportsKit.modulemap";
+				PRODUCT_MODULE_NAME = SportsKit;
+				PRODUCT_NAME = SportsKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		1EE19F5DD95931924296F637BF18BD8F /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -736,9 +741,9 @@
 			};
 			name = Debug;
 		};
-		B0312C0D305AB7DA96B13A65621E276D /* Debug */ = {
+		7DF5E6C5681043DDEEA6FE1ED7FDF98F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 256E9CE8728093F43C0547E6D70BEC7D /* SportsKit.xcconfig */;
+			baseConfigurationReference = 6E11FBB8EB4A102B1FD8A799EA8F12EE /* SportsKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -750,23 +755,24 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/SportsKit/SportsKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SportsKit/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/SportsKit/SportsKit.modulemap";
 				PRODUCT_MODULE_NAME = SportsKit;
 				PRODUCT_NAME = SportsKit;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		F4568DEE257655D290C2B9CEAB37C934 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -832,8 +838,8 @@
 		1892BFAAAD089C2B43745ECBCA1E6949 /* Build configuration list for PBXNativeTarget "SportsKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B0312C0D305AB7DA96B13A65621E276D /* Debug */,
-				0C510E271648CACEF0A009512C651579 /* Release */,
+				1E27AB1034FAA7AD213D6FC2069DBB92 /* Debug */,
+				7DF5E6C5681043DDEEA6FE1ED7FDF98F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

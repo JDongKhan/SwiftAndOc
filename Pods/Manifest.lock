@@ -12,7 +12,7 @@ DEPENDENCIES:
   - SportsKit (from `SportsKit.podspec`)
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
+  https://github.com/cocoapods/specs.git:
     - YYImage
 
 EXTERNAL SOURCES:
@@ -20,9 +20,9 @@ EXTERNAL SOURCES:
     :path: SportsKit.podspec
 
 SPEC CHECKSUMS:
-  SportsKit: f4ea653e1a91fc33113769a04328cff47586844d
+  SportsKit: 62b10aaa46340bd80b8de4f2c81a7357b31c827f
   YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
 
-PODFILE CHECKSUM: 8372fa50e56a9756808433fc904e805ee432516b
+PODFILE CHECKSUM: 880168ee2a649226b80c9593e908760eabc533c0
 
-COCOAPODS: 1.5.0
+COCOAPODS: 1.5.2

@@ -7,8 +7,9 @@
 //
 
 import UIKit
+import SportsKit
 
-class ViewController: TestViewController {
+class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,7 +20,9 @@ class ViewController: TestViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    @IBAction func clickAction(_ sender: Any) {
+        //self.navigationController?.pushViewController(Test1ViewController(), animated: true)
+        self.navigationController?.pushViewController(TestViewController(), animated: true)
+    }
 }
 
